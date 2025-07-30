@@ -26,9 +26,10 @@ Feel free to support my strugglin ass and get my 2 year old daughter a snack her
 ![Preview 1](Screenshots/Screenshot-01-07-25-25.png)
 
 <p align="center">
-🧹 Let's start by creating a MicroWin (Debloated Windows ISO) using the beloved Chris Titus command.<br>
+🧹 Let's start by creating a MicroWin (Debloated Windows ISO) using the beloved <a href="https://github.com/ChrisTitusTech/winutil" target="_blank" rel="noopener noreferrer"><strong>Chris Titus Windows Utility</strong></a>.<br>
 I created this script which ensures Winget is installed before running. 🧹
 </p>
+
 
 <p align="center">
   <a href="https://github.com/Cinabutts/MyWin11/releases/download/Release_v1.0.0/WinGet-ChrisTitus-Setup.ps1" download>
@@ -82,6 +83,10 @@ Write-Host "`nScript finished." -ForegroundColor Green
 
 <p align="center">
 <img src="Screenshots/ChrisTitus.png" alt="Chris Titus Image" width="1000" valign="middle"/>
+</p>
+
+<p align="center">
+If you are starting fresh click "MicroWin" and follow the instructions there, Use a pre-existing ISO, or create a new one with the latest Windows 11 ISO.
 </p>
 
 <p align="center">
