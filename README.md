@@ -605,7 +605,7 @@ Runs a custom script to resort the desktop icons, assumes the default state is D
 
 <p align="center">
   <a href="https://github.com/Cinabutts/MyWin11/releases/download/Release_v1.0.0/Re-Sort.ahk">
-    <img src="https://img.shields.io/github/downloads/Cinabutts/MyWin11/Re-Sort.ahk?label=Downloads&color=blue" alt="Download Count" />
+    <img src="https://img.shields.io/github/downloads/Cinabutts/MyWin11/Re-Sort.ahk?label=Downloads&color=red" alt="Download Count" />
   </a>
 </p>
 
@@ -632,7 +632,7 @@ Self explanatory.
 
 <p align="center">
   <a href="https://github.com/Cinabutts/MyWin11/releases/download/Release_v1.0.0/CreateRestorePoint.ps1">
-    <img src="https://img.shields.io/github/downloads/Cinabutts/MyWin11/CreateRestorePoint.ps1?label=Downloads&color=blue" alt="Download Count" />
+    <img src="https://img.shields.io/github/downloads/Cinabutts/MyWin11/CreateRestorePoint.ps1?label=Downloads&color=c06b59" alt="Download Count" />
   </a>
 </p>
 
@@ -668,7 +668,7 @@ Self explanatory. <em>This is set to be only visible with Shift + right-click on
 
 <p align="center">
   <a href="https://github.com/Cinabutts/MyWin11/releases/download/Release_v1.0.0/Create-RegBackup.bat">
-    <img src="https://img.shields.io/github/downloads/Cinabutts/MyWin11/Create-RegBackup.bat?label=Downloads&color=blue" alt="Download Count" />
+    <img src="https://img.shields.io/github/downloads/Cinabutts/MyWin11/Create-RegBackup.bat?label=Downloads&color=a1783d" alt="Download Count" />
   </a>
 </p>
 
