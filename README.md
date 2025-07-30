@@ -23,7 +23,7 @@ Feel free to support my strugglin ass and get my 2 year old daughter a snack her
   [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Silkscreen&size=17&letterSpacing=-3px&pause=1000&color=F7BC00&center=true&vCenter=true&width=435&lines=%E2%9A%A0%EF%B8%8F+Tested+on+Windows+11+24H2+Build%3A+26100.4770%E2%9A%A0%EF%B8%8F)](https://git.io/typing-svg)
   </div>
 
-![Screenshot-1](Screenshots/Screenshot-01-07-25-25.png)
+![Preview 1](Screenshots/Screenshot-01-07-25-25.png)
 
 <p align="center">
 🧹 Let's start by creating a MicroWin (Debloated Windows ISO) using the beloved Chris Titus command.<br>
@@ -641,7 +641,7 @@ Self explanatory.
   <summary>Setup CreateRestorePoint context button</summary>
   <p align="center"><em>Install PowerShell v7 via the Chris Titus script above ^</em></p>
 
-  ![Screenshot-1](Screenshots/Screenshot-03-07-27-25.png)
+  ![Preview 2](Screenshots/Screenshot-03-07-27-25.png)
 
   <p align="center"><em>"Executable File Path"</em></p>
 
@@ -713,51 +713,59 @@ _Download Link:_ [Lively Wallpaper](https://www.rocksdanister.com/lively/) &nbsp
   <br>
   <p align="center">
     <a href="https://moewalls.com/abstract/abstract-organic-lines-live-wallpaper/">
-      <strong>abstract-organic-lines-moewalls-com</strong>
+      <strong>abstract organic lines</strong>
     </a>
   </p>
 
-  ![Screenshot 2](Screenshots/L2.png)
+  ![Preview 1](Screenshots/L1.png)
 
   <p align="center">
-    <a href="https://moewalls.com/abstract/abstract-organic-lines-live-wallpaper/">
-      <strong>abstract-organic-lines-moewalls-com</strong>
+    <a href="https://www.desktophut.com/meteor-over-clouds-9009">
+      <strong>meteor over clouds</strong>
     </a>
   </p>
 
-  ![Screenshot 3](Screenshots/L3.png)
+  ![Preview 2](Screenshots/L2.png)
 
   <p align="center">
-    <a href="https://moewalls.com/abstract/abstract-organic-lines-live-wallpaper/">
-      <strong>abstract-organic-lines-moewalls-com</strong>
+    <a href="https://www.desktophut.com/tropical-green-leaves-6917">
+      <strong>tropical green leaves</strong>
     </a>
   </p>
 
-  ![Screenshot 4](Screenshots/L4.png)
+  ![Preview 3](Screenshots/L3.png)
 
   <p align="center">
-    <a href="https://moewalls.com/abstract/abstract-organic-lines-live-wallpaper/">
-      <strong>abstract-organic-lines-moewalls-com</strong>
+    <a href="https://moewalls.com/landscape/green-home-live-wallpaper/">
+      <strong>green home</strong>
     </a>
   </p>
 
-  ![Screenshot 5](Screenshots/L5.png)
+  ![Preview 4](Screenshots/L4.png)
 
   <p align="center">
-    <a href="https://moewalls.com/abstract/abstract-organic-lines-live-wallpaper/">
-      <strong>abstract-organic-lines-moewalls-com</strong>
+    <a href="https://moewalls.com/lifestyle/peaceful-ruins-live-wallpaper/">
+      <strong>peaceful ruins</strong>
     </a>
   </p>
 
-  ![Screenshot 6](Screenshots/L6.png)
+  ![Preview 5](Screenshots/L5.png)
 
   <p align="center">
-    <a href="https://moewalls.com/abstract/abstract-organic-lines-live-wallpaper/">
-      <strong>abstract-organic-lines-moewalls-com</strong>
+    <a href="https://moewalls.com/landscape/poppy-hill-our-life-beginnings-and-always-live-wallpaper/">
+      <strong>poppy hill</strong>
     </a>
   </p>
 
-  ![Screenshot 7](Screenshots/L7.png)
+  ![Preview 6](Screenshots/L6.png)
+
+  <p align="center">
+    <a href="https://moewalls.com/abstract/windows-10-colorful-live-wallpaper/">
+      <strong>windows 10 colorful</strong>
+    </a>
+  </p>
+
+  ![Preview 7](Screenshots/L7.png)
 
   <p align="center">
   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
