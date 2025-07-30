@@ -211,6 +211,7 @@ _Download Link:_ [AutoHotKey](https://www.autohotkey.com/) &nbsp;&nbsp;&nbsp;&nb
       <summary>Script 1:</summary>
       <div align="left">
         <pre><code class="ahk">
+; Better Win-Tab by Cinabutts    (https://github.com/Cinabutts)
 #Requires AutoHotkey v2.0
 #SingleInstance Force
 #WinActivateForce
@@ -247,7 +248,7 @@ WheelDown::Send "{Right}"
       <summary>Script 2:</summary>
       <div align="left">
         <pre><code class="ahk">
-;Alt-Tab Replacement by jeeswg
+;Alt-Tab Replacement by jeeswg    (https://github.com/jeeswg)
 
 #SingleInstance force
 ListLines, Off
@@ -578,7 +579,7 @@ JEE_WinHasAltTabIcon(hWnd)
 _Description:_ Allows custom Context Menu items (files/folders/shell locations).  
 _Download Link:_ [Context Menu Tuner (by Winaero)](https://winaero.com/download-context-menu-tuner/)
 
-<em>📌 Note: It does not allow removal of certain annoying context items unfortunately.</em>
+<em>📌 **Note**: It does not allow for removal of any context menu items unfortunately.</em>
 </div>
 
 <details>
