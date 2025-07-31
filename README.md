@@ -609,7 +609,7 @@ Runs a custom script to resort the desktop icons, assumes the default state is D
 
 <p align="center">
   <a href="https://github.com/Cinabutts/MyWin11/releases/download/Release_v1.0.0/Re-Sort.ahk">
-    <img src="https://img.shields.io/github/downloads/Cinabutts/MyWin11/Re-Sort.ahk?label=Downloads&color=red" alt="Download Count" />
+    <img src="https://img.shields.io/github/downloads/Cinabutts/MyWin11/Re-Sort.ahk?label=Downloads&color=3e73e5" alt="Download Count" />
   </a>
 </p>
 
@@ -636,7 +636,7 @@ Self explanatory.
 
 <p align="center">
   <a href="https://github.com/Cinabutts/MyWin11/releases/download/Release_v1.0.0/CreateRestorePoint.ps1">
-    <img src="https://img.shields.io/github/downloads/Cinabutts/MyWin11/CreateRestorePoint.ps1?label=Downloads&color=c06b59" alt="Download Count" />
+    <img src="https://img.shields.io/github/downloads/Cinabutts/MyWin11/CreateRestorePoint.ps1?label=Downloads&color=d23e81" alt="Download Count" />
   </a>
 </p>
 
@@ -673,7 +673,7 @@ Self explanatory. <em>This is set to be only visible with Shift + right-click on
 
 <p align="center">
   <a href="https://github.com/Cinabutts/MyWin11/releases/download/Release_v1.0.0/Create-RegBackup.bat">
-    <img src="https://img.shields.io/github/downloads/Cinabutts/MyWin11/Create-RegBackup.bat?label=Downloads&color=a1783d" alt="Download Count" />
+    <img src="https://img.shields.io/github/downloads/Cinabutts/MyWin11/Create-RegBackup.bat?label=Downloads&color=a6700c" alt="Download Count" />
   </a>
 </p>
 
@@ -690,6 +690,32 @@ Self explanatory. <em>This is set to be only visible with Shift + right-click on
 
   ```text
   "C:\Scripts\Create-RegBackup.bat"
+  ```
+
+</details>
+
+📜 [**Create System Links:**](https://github.com/Cinabutts/MyWin11/releases/download/Release_v1.0.0/Create-Syslink.ps1)  
+<em>This script is very useful for the <code>C:/Scripts</code> folder, it can create a system link<br> from anywhere to the folder. <br>This is set to be only visible with Shift + right-click on Folders.</em>
+
+<p align="center">
+  <a href="https://github.com/Cinabutts/MyWin11/releases/download/Release_v1.0.0/Create-Syslinks.ps1">
+    <img src="https://img.shields.io/github/downloads/Cinabutts/MyWin11/Create-Syslinks.ps1?label=Downloads&color=01934c" alt="Download Count" />
+  </a>
+</p>
+
+<details>
+  <summary>Setup Create-RegBackup context button</summary>
+
+  <p align="center"><em>"Executable File Path"</em></p>
+
+  ```text
+  C:\Program Files\PowerShell\7\pwsh.exe
+  ```
+
+  <p align="center"><em>"Command Line Arguments"</em></p>
+
+  ```text
+  "C:\Scripts\Create-Symlinks.ps1" "%1"
   ```
 
 </details>
