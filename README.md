@@ -732,8 +732,7 @@ Self explanatory. <em><small>Set to be only visible with Shift + right-click on 
 
 ---
 
-<h1 align="center" style="color: #00ffffff; text-shadow: 2px 2px 4px #165e34ff;">🎨 Appearance Mods 🎨</h1>
-
+<h1 align="center">🎨 Appearance Mods 🎨</h1>
 
 ---
 
