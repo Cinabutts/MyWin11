@@ -23,7 +23,7 @@ Feel free to support my strugglin ass and get my 2 year old daughter a snack her
   [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Silkscreen&size=17&letterSpacing=-3px&pause=1000&color=F7BC00&center=true&vCenter=true&width=435&lines=%E2%9A%A0%EF%B8%8F+Tested+on+Windows+11+24H2+Build%3A+26100.4770%E2%9A%A0%EF%B8%8F)](https://git.io/typing-svg)
   </div>
 
-![Preview 1](Screenshots/Screenshot-01-07-25-25.png)
+![Preview 1](Images/Screenshot-01-07-25-25.png)
 
 <p align="center">
 🧹 Let's start by creating a MicroWin (Debloated Windows ISO) using the beloved <a href="https://github.com/ChrisTitusTech/winutil" target="_blank" rel="noopener noreferrer"><strong>Chris Titus Windows Utility</strong></a>.<br>
@@ -81,7 +81,7 @@ Write-Host "`nScript finished." -ForegroundColor Green
 </p>
 
 <p align="center">
-<img src="Screenshots/ChrisTitus.png" alt="Chris Titus Image" width="1000" valign="middle"/>
+<img src="Images/ChrisTitus.png" alt="Chris Titus Image" width="1000" valign="middle"/>
 </p>
 
 <p align="center">
@@ -112,39 +112,39 @@ If you are starting fresh click "MicroWin" and follow the instructions there, Us
   <details>
     <summary><strong>   Customization</strong></summary>
     <p align="center">
-      <img src="Screenshots/UWT1.png" alt="Screenshot 1" />
-      <img src="Screenshots/UWT2.png" alt="Screenshot 2" />
-      <img src="Screenshots/UWT3.png" alt="Screenshot 3" />
-      <img src="Screenshots/UWT4.png" alt="Screenshot 4" />
+      <img src="Images/UWT1.png" alt="Screenshot 1" />
+      <img src="Images/UWT2.png" alt="Screenshot 2" />
+      <img src="Images/UWT3.png" alt="Screenshot 3" />
+      <img src="Images/UWT4.png" alt="Screenshot 4" />
     </p>
     <p align="right"><a href="#-tweak--customization-mods-">Back to Section Top 🔝</a></p>
   </details>
   <details>
     <summary><strong>   Performance</strong></summary>
     <p align="center">
-      <img src="Screenshots/UWT5.png" alt="Screenshot 5" />
+      <img src="Images/UWT5.png" alt="Screenshot 5" />
     </p>
     <p align="right"><a href="#-tweak--customization-mods-">Back to Section Top 🔝</a></p>
   </details>
   <details>
     <summary><strong>   Security & Privacy</strong></summary>
     <p align="center">
-      <img src="Screenshots/UWT6.png" alt="Screenshot 6" />
-      <img src="Screenshots/UWT7.png" alt="Screenshot 7" />
+      <img src="Images/UWT6.png" alt="Screenshot 6" />
+      <img src="Images/UWT7.png" alt="Screenshot 7" />
     </p>
     <p align="right"><a href="#-tweak--customization-mods-">Back to Section Top 🔝</a></p>
   </details>
   <details>
     <summary><strong>   Context Menu</strong></summary>
     <p align="center">
-      <img src="Screenshots/UWT8.png" alt="Screenshot 8" />
+      <img src="Images/UWT8.png" alt="Screenshot 8" />
     </p>
     <p align="right"><a href="#-tweak--customization-mods-">Back to Section Top 🔝</a></p>
   </details>
   <details>
     <summary><strong>   Additional</strong></summary>
     <p align="center">
-      <img src="Screenshots/UWT9.png" alt="Screenshot 9" />
+      <img src="Images/UWT9.png" alt="Screenshot 9" />
     </p>
     <p align="right"><a href="#-tweak--customization-mods-">Back to Section Top 🔝</a></p>
   </details>
@@ -590,7 +590,7 @@ _Download Link:_ [Context Menu Tuner (by Winaero)](https://winaero.com/download-
 <table align="center">
   <tr>
     <td>
-      <img src="Screenshots/Screenshot-02-07-25-25.png" alt="Screenshot-2" width="300" />
+      <img src="Images/Screenshot-02-07-25-25.png" alt="Screenshot-2" width="300" />
     </td>
     <td style="vertical-align: top; padding-top: 20px;">
       <strong>Legend:</strong><br>
@@ -644,7 +644,7 @@ Self explanatory.
   <summary>Setup CreateRestorePoint context button</summary>
   <p align="center"><em>Install PowerShell v7 via the Chris Titus script above ^</em></p>
 
-  ![Preview 2](Screenshots/Screenshot-03-07-27-25.png)
+  ![Preview 2](Images/Screenshot-03-07-27-25.png)
 
   <p align="center"><em>"Executable File Path"</em></p>
 
@@ -748,7 +748,7 @@ _Download Link:_ [Lively Wallpaper](https://www.rocksdanister.com/lively/) &nbsp
     </a>
   </p>
 
-  ![Preview 1](Screenshots/L1.png)
+  ![Preview 1](Images/L1.gif)
 
   <p align="center">
     <a href="https://www.desktophut.com/meteor-over-clouds-9009">
@@ -756,7 +756,7 @@ _Download Link:_ [Lively Wallpaper](https://www.rocksdanister.com/lively/) &nbsp
     </a>
   </p>
 
-  ![Preview 2](Screenshots/L2.png)
+  ![Preview 2](Images/L2.gif)
 
   <p align="center">
     <a href="https://www.desktophut.com/tropical-green-leaves-6917">
@@ -764,7 +764,7 @@ _Download Link:_ [Lively Wallpaper](https://www.rocksdanister.com/lively/) &nbsp
     </a>
   </p>
 
-  ![Preview 3](Screenshots/L3.png)
+  ![Preview 3](Images/L3.gif)
 
   <p align="center">
     <a href="https://moewalls.com/landscape/green-home-live-wallpaper/">
@@ -772,7 +772,7 @@ _Download Link:_ [Lively Wallpaper](https://www.rocksdanister.com/lively/) &nbsp
     </a>
   </p>
 
-  ![Preview 4](Screenshots/L4.png)
+  ![Preview 4](Images/L4.gif)
 
   <p align="center">
     <a href="https://moewalls.com/lifestyle/peaceful-ruins-live-wallpaper/">
@@ -780,7 +780,7 @@ _Download Link:_ [Lively Wallpaper](https://www.rocksdanister.com/lively/) &nbsp
     </a>
   </p>
 
-  ![Preview 5](Screenshots/L5.png)
+  ![Preview 5](Images/L5.gif)
 
   <p align="center">
     <a href="https://moewalls.com/landscape/poppy-hill-our-life-beginnings-and-always-live-wallpaper/">
@@ -788,7 +788,7 @@ _Download Link:_ [Lively Wallpaper](https://www.rocksdanister.com/lively/) &nbsp
     </a>
   </p>
 
-  ![Preview 6](Screenshots/L6.png)
+  ![Preview 6](Images/L6.gif)
 
   <p align="center">
     <a href="https://moewalls.com/abstract/windows-10-colorful-live-wallpaper/">
@@ -796,7 +796,7 @@ _Download Link:_ [Lively Wallpaper](https://www.rocksdanister.com/lively/) &nbsp
     </a>
   </p>
 
-  ![Preview 7](Screenshots/L7.png)
+  ![Preview 7](Images/L7.gif)
 
   <p align="center">
   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
