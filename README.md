@@ -669,7 +669,7 @@ Self explanatory.
 <br>
 
 📜 [**Create Registry Backup:**](https://github.com/Cinabutts/MyWin11/releases/download/Release_v1.0.0/Create-RegBackup.bat)  
-Self explanatory. <em>This is set to be only visible with Shift + right-click on desktop.</em>
+Self explanatory. <em><small>Set to be only visible with Shift + right-click on desktop.</small></em>
 
 <p align="center">
   <a href="https://github.com/Cinabutts/MyWin11/releases/download/Release_v1.0.0/Create-RegBackup.bat">
@@ -695,7 +695,7 @@ Self explanatory. <em>This is set to be only visible with Shift + right-click on
 </details>
 
 📜 [**Create System Links:**](https://github.com/Cinabutts/MyWin11/releases/download/Release_v1.0.0/Create-Syslink.ps1)  
-<em>This script is very useful for the <code>C:/Scripts</code> folder, it can create a system link<br> from anywhere to the folder. <br>This is set to be only visible with Shift + right-click on Folders.</em>
+<em>This script is very useful for the <code>C:/Scripts</code> folder, it can create a system link<br> from wherever you click to any folder. <br><small>Set to be only visible with Shift + right-click on Folders.</small></em>
 
 <p align="center">
   <a href="https://github.com/Cinabutts/MyWin11/releases/download/Release_v1.0.0/Create-Syslinks.ps1">
