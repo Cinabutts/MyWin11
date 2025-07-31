@@ -1,0 +1,19 @@
+{
+    "markdown.validate.enabled": true,
+    "markdownlint.config": {
+        "MD033": {
+            "allowed_elements": [
+                "a", "abbr", "b", "bdo", "blockquote", "br", "caption", "cite",
+                "code", "dd", "del", "details", "dfn", "div", "dl", "dt", "em",
+                "figcaption", "figure", "h1", "h2", "h3", "h4", "h5", "h6", "hr",
+                "i", "img", "ins", "kbd", "li", "mark", "ol", "p", "pre", "q",
+                "rp", "rt", "ruby", "s", "samp", "small", "span", "strike",
+                "strong", "sub", "summary", "sup", "table", "tbody", "td",
+                "tfoot", "th", "thead", "time", "tr", "tt", "ul", "var", "wbr"
+            ]
+        }
+    },
+    "markdownlint.ignore": [
+        "**/LICENSE"
+    ]
+}

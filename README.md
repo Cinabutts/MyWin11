@@ -692,6 +692,7 @@ Self explanatory. <em>This is set to be only visible with Shift + right-click on
   ```text
   "C:\Scripts\Create-RegBackup.bat"
   ```
+
 </details>
 
 <p align="center">
