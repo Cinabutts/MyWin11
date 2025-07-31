@@ -728,11 +728,15 @@ Self explanatory. <em><small>Set to be only visible with Shift + right-click on 
 
 &nbsp;
 
+<br><br>
+
 ---
 
 <h1 align="center">🎨 Appearance Mods 🎨</h1>
 
 ---
+
+<br><br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;
 ### <img src="Favcons/icon_LIVELY.png" width="40" valign="middle" alt="Lively Wallpaper Icon" /> <strong>Lively Wallpaper</strong>  
