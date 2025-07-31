@@ -30,7 +30,6 @@ Feel free to support my strugglin ass and get my 2 year old daughter a snack her
 I created this script which ensures Winget is installed before running. 🧹
 </p>
 
-
 <p align="center">
   <a href="https://github.com/Cinabutts/MyWin11/releases/download/Release_v1.0.0/WinGet-ChrisTitus-Setup.ps1" download>
     📥 Download WinGet-ChrisTitus-Setup.ps1
@@ -106,7 +105,6 @@ If you are starting fresh click "MicroWin" and follow the instructions there, Us
 
 <em>Description:</em> WAY too many tweaks to list here.  
 <em>Download Link:</em> <a href="https://www.thewindowsclub.com/ultimate-windows-tweaker-5-for-windows-11">Ultimate Windows Tweaker</a>
-
 
 <details>
   <summary>Click to expand screenshots</summary>
@@ -216,6 +214,7 @@ _Download Link:_ [AutoHotKey](https://www.autohotkey.com/) &nbsp;&nbsp;&nbsp;&nb
       <summary>Script 1:</summary>
       <div align="left">
         <pre><code class="ahk">
+      <!-- markdownlint-disable -->
 ; Better Win-Tab by Cinabutts    (https://github.com/Cinabutts)
 #Requires AutoHotkey v2.0
 #SingleInstance Force
@@ -229,6 +228,7 @@ ProcessSetPriority "High"
 WheelUp::Send "{Left}"
 WheelDown::Send "{Right}"
 #HotIf
+        <!-- markdownlint-enable -->
         </code></pre>
       </div>
     </details>
@@ -249,6 +249,7 @@ WheelDown::Send "{Right}"
   </div>
 
   <div align="center">
+        <!-- markdownlint-disable -->
     <details>
       <summary>Script 2:</summary>
       <div align="left">
@@ -565,13 +566,10 @@ JEE_WinHasAltTabIcon(hWnd)
 
 ;==================================================
         </code></pre>
-      </div>
-    </details>
-  </div>
-
+      </div></details></div>
+<!-- markdownlint-enable -->
 </details>
 <br>
-
 
 ---
 
@@ -659,6 +657,7 @@ Self explanatory.
   ```text
   "C:\Scripts\CreateRestorePoint.ps1"
   ```
+  
 </details>
 
 <br>

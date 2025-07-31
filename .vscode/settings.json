@@ -1,6 +1,7 @@
 {
     "markdown.validate.enabled": true,
     "markdownlint.config": {
+        // This rule allows specific HTML elements in your markdown
         "MD033": {
             "allowed_elements": [
                 "a", "abbr", "b", "bdo", "blockquote", "br", "caption", "cite",
@@ -11,8 +12,11 @@
                 "strong", "sub", "summary", "sup", "table", "tbody", "td",
                 "tfoot", "th", "thead", "time", "tr", "tt", "ul", "var", "wbr"
             ]
-        }
+        },
+        // This new line disables the rule for blank lines around code fences
+        "MD031": false
     },
+    // This tells the linter to not even look at the LICENSE file
     "markdownlint.ignore": [
         "**/LICENSE"
     ]
