@@ -779,43 +779,43 @@ _Download Link:_ [Lively Wallpaper](https://www.rocksdanister.com/lively/)
       <strong>abstract organic lines</strong>
     </a>
   </p>
-<img src="Images/L1.gif" alt="Preview 1" width="600" />
+<img src="Images/L1.gif" alt="Preview 1" width="800" />
   <p align="center">
     <a href="https://www.desktophut.com/meteor-over-clouds-9009">
       <strong>meteor over clouds</strong>
     </a>
   </p>
-<img src="Images/L2.gif" alt="Preview 2" width="600" />
+<img src="Images/L2.gif" alt="Preview 2" width="800" />
   <p align="center">
     <a href="https://www.desktophut.com/tropical-green-leaves-6917">
       <strong>tropical green leaves</strong>
     </a>
   </p>
-<img src="Images/L3.gif" alt="Preview 3" width="600" />
+<img src="Images/L3.gif" alt="Preview 3" width="800" />
   <p align="center">
     <a href="https://moewalls.com/landscape/green-home-live-wallpaper/">
       <strong>green home</strong>
     </a>
   </p>
-<img src="Images/L4.gif" alt="Preview 4" width="600" />
+<img src="Images/L4.gif" alt="Preview 4" width="800" />
   <p align="center">
     <a href="https://moewalls.com/lifestyle/peaceful-ruins-live-wallpaper/">
       <strong>peaceful ruins</strong>
     </a>
   </p>
-<img src="Images/L5.gif" alt="Preview 5" width="600" />
+<img src="Images/L5.gif" alt="Preview 5" width="800" />
   <p align="center">
     <a href="https://moewalls.com/landscape/poppy-hill-our-life-beginnings-and-always-live-wallpaper/">
       <strong>poppy hill</strong>
     </a>
   </p>
-<img src="Images/L6.gif" alt="Preview 6" width="600" />
+<img src="Images/L6.gif" alt="Preview 6" width="800" />
   <p align="center">
     <a href="https://moewalls.com/abstract/windows-10-colorful-live-wallpaper/">
       <strong>windows 10 colorful</strong>
     </a>
   </p>
-  <img src="Images/L7.gif" alt="Preview 7" width="600" />
+  <img src="Images/L7.gif" alt="Preview 7" width="800" />
   <p align="center">
   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   </p>
