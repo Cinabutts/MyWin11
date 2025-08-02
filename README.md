@@ -179,7 +179,7 @@ _Download Link:_ [Winaero Tweaker](https://winaero.com/winaero-tweaker/)
 
 ---
 
-<br>
+<div align="left"><sup>✨</sup><strong>Custom Scripts inside</strong><sup>✨</sup></div>
 
 <div align="center">
 
@@ -198,23 +198,23 @@ _Download Link:_ [AutoHotKey](https://www.autohotkey.com/) &nbsp;&nbsp;&nbsp;&nb
 
 <details>
   <summary>Scripts: </summary><br>
-
   <div align="center">
     <strong>Better_Win-Tab.ahk</strong>
     <p align="center">
       <a href="https://github.com/Cinabutts/MyWin11/releases/download/Release_v1.0.0/Better_Win-Tab.ahk">
-        <img src="https://img.shields.io/github/downloads/Cinabutts/MyWin11/latest/Better_Win-Tab.ahk?style=flat-square&label=Install:&labelColor=black&color=%237e48ca" alt="Download Count" />
+        <img src="https://img.shields.io/github/downloads/Cinabutts/MyWin11/latest/Better_Win-Tab.ahk?style=flat-square&label=Install:&labelColor=black&color=%237e48ca"
+        alt="Download Count" />
       </a>
     </p>
     <p><em>Description:</em> Allows you to use the mouse wheel to<br>scroll between tabs. <i>(Space to select)</i></p>
   </div>
-
   <div align="center">
     <details>
       <summary>Script 1:</summary>
       <div align="left">
-        <pre><code class="ahk">
       <!-- markdownlint-disable -->
+
+```ahk <!----------------------------------------------------------AHK-Script1 -->
 ; Better Win-Tab by Cinabutts    (https://github.com/Cinabutts)
 #Requires AutoHotkey v2.0
 #SingleInstance Force
@@ -228,32 +228,34 @@ ProcessSetPriority "High"
 WheelUp::Send "{Left}"
 WheelDown::Send "{Right}"
 #HotIf
-        <!-- markdownlint-enable -->
-        </code></pre>
-      </div>
-    </details>
-  </div>
+```
 
-  <br>
+</div></details></div>
+      <!-- markdownlint-enable -->
+<br>
 
 ---
 
-  <div align="center">
-    <strong>Better_Alt-Tab.ahk</strong>
-    <p align="center">
-      <a href="https://github.com/Cinabutts/MyWin11/releases/download/Release_v1.0.0/Better_Alt-Tab.ahk">
-        <img src="https://img.shields.io/github/downloads/Cinabutts/MyWin11/latest/Better_Alt-Tab.ahk?style=flat-square&label=Install:&labelColor=black&color=%23e618ca" alt="Download Count" />
+<div align="center">
+  <strong>Better_Alt-Tab.ahk</strong>
+  <p align="center">
+    <a href="https://github.com/Cinabutts/MyWin11/releases/download/Release_v1.0.0/Better_Alt-Tab.ahk">
+        <img src="https://img.shields.io/github/downloads/Cinabutts/MyWin11/latest/Better_Alt-Tab.ahk?style=flat-square&label=Install:&labelColor=black&color=%23e618ca"
+        alt="Download Count" />
       </a>
     </p>
-    <p><em>Description:</em> Replaces the default alt tab with a more<br>customizable list of windows.</p>
-  </div>
+    <p><em>Description:</em>
+      Replaces the default alt tab with a more<br>customizable list of windows.
+    </p>
+</div>
 
-  <div align="center">
-        <!-- markdownlint-disable -->
-    <details>
-      <summary>Script 2:</summary>
-      <div align="left">
-        <pre><code class="ahk">
+<div align="center">
+  <details>
+    <summary>Script 2:</summary>
+    <div align="left">
+<!-- markdownlint-disable -->
+
+```ahk <!----------------------------------------------------------AHK-Script2 -->
 ;Alt-Tab Replacement by jeeswg    (https://github.com/jeeswg)
 
 #SingleInstance force
@@ -563,24 +565,27 @@ JEE_WinHasAltTabIcon(hWnd)
 		return 0
 	return 1
 }
+```
 
-;==================================================
-        </code></pre>
-      </div></details></div>
-<!-- markdownlint-enable -->
+</div></details></div>
 </details>
+
 <br>
+
+<!-- markdownlint-enable -->
 
 ---
 
-<br>
+<div align="right"><sup>✨</sup><strong>Custom Scripts inside</strong><sup>✨</sup></div>
 
 <div align="center">
 
-### <img src="Favcons/icon_CMT.png" width="40" valign="middle" alt=""/> **Context Menu Tuner**  
+<!-- markdownlint-disable-next-line MD013 -->
+### <img src="Favcons/icon_CMT.png" width="40" valign="middle" alt=""/> **Context Menu Tuner**
 
-_Description:_ Allows custom Context Menu items (files/folders/shell locations).  
-_Download Link:_ [Context Menu Tuner (by Winaero)](https://winaero.com/download-context-menu-tuner/)
+_Description:_
+  Allows custom Context Menu items (files/folders/shell locations).<br>
+  _Download Link:_ [Context Menu Tuner (by Winaero)](https://winaero.com/download-context-menu-tuner/)
 
 <em>📌 **Note**: It does not allow for removal of any context menu items unfortunately.</em>
 </div>
@@ -590,7 +595,8 @@ _Download Link:_ [Context Menu Tuner (by Winaero)](https://winaero.com/download-
 <table align="center">
   <tr>
     <td>
-      <img src="Images/Screenshot-02-07-25-25.png" alt="Screenshot-2" width="300" />
+      <img
+      src="Images/Screenshot-02-07-25-25.png" alt="Screenshot-2" width="300" />
     </td>
     <td style="vertical-align: top; padding-top: 20px;">
       <strong>Legend:</strong><br>
@@ -600,22 +606,26 @@ _Download Link:_ [Context Menu Tuner (by Winaero)](https://winaero.com/download-
   </tr>
 </table>
 
-<p align="center"><strong>Save under <code>C:/Scripts</code></strong> for easy accessibility</p>
+<p align="center"><strong>Save under <code>C:/Scripts</code></strong> for easy accessibility</p><br>
 
-<br>
-
-📜 [**Re-Sort:**](https://github.com/Cinabutts/MyWin11/releases/download/Release_v1.0.0/Re-Sort.ahk)  
-Runs a custom script to resort the desktop icons, assumes the default state is Date Modified.
+📜 [**Re-Sort:**](https://github.com/Cinabutts/MyWin11/releases/download/Release_v1.0.0/Re-Sort.ahk)<br>
+<em>
+  Runs a custom script to resort the desktop icons,
+  assumes the default state is Date Modified.
+</em>
 
 <p align="center">
   <a href="https://github.com/Cinabutts/MyWin11/releases/download/Release_v1.0.0/Re-Sort.ahk">
-    <img src="https://img.shields.io/github/downloads/Cinabutts/MyWin11/Re-Sort.ahk?label=Downloads&color=3e73e5" alt="Download Count" />
+    <img
+    src="https://img.shields.io/github/downloads/Cinabutts/MyWin11/Re-Sort.ahk?label=Downloads&color=3e73e5"
+    alt="Download Count" />
   </a>
 </p>
 
 <details>
   <summary>Setup Re-Sort context button</summary>
-    <p align="center"><em>Install <a href="#--autohotkey">AutoHotKey</a>, both are necessary. This specific script relies on v1 though.</em></p>
+    <p align="center"><em>Install <a href="#--autohotkey">AutoHotKey</a>,
+    both are necessary. This specific script relies on v1 though.</em></p>
   <p align="center"><em>"Executable File Path"</em></p>
 
   ```text
@@ -627,16 +637,19 @@ Runs a custom script to resort the desktop icons, assumes the default state is D
   ```text
   "C:\Scripts\Re-Sort.ahk"
   ```
-</details>
 
-<br>
+</details><br>
 
-📜 [**Create Restore Point:**](https://github.com/Cinabutts/MyWin11/releases/download/Release_v1.0.0/CreateRestorePoint.ps1)  
+📜 [**Create Restore Point:**](https://github.com/Cinabutts/MyWin11/releases/download/Release_v1.0.0/CreateRestorePoint.ps1)<br>
+<em>
 Self explanatory.
+</em>
 
 <p align="center">
   <a href="https://github.com/Cinabutts/MyWin11/releases/download/Release_v1.0.0/CreateRestorePoint.ps1">
-    <img src="https://img.shields.io/github/downloads/Cinabutts/MyWin11/CreateRestorePoint.ps1?label=Downloads&color=d23e81" alt="Download Count" />
+    <img
+    src="https://img.shields.io/github/downloads/Cinabutts/MyWin11/CreateRestorePoint.ps1?label=Downloads&color=d23e81"
+    alt="Download Count" />
   </a>
 </p>
 
@@ -662,18 +675,24 @@ Self explanatory.
 
 <br>
 
+<!-- markdownlint-disable-next-line MD013 -->
 🛠️ **Kill not responding tasks:** Self explanatory.  
-🛠️ **Layout:** Shows a submenu to toggle menu bar Detail/Preview/Navigation panes etc.  
-🛠️ **Restart Explorer:** Shows a submenu to restart Explorer or stop Explorer and start upon key press.
 
+<!-- markdownlint-disable-next-line MD013 -->
+🛠️ **Layout:** Shows a submenu to toggle menu bar Detail/Preview/Navigation panes etc.  
+
+<!-- markdownlint-disable-next-line MD013 -->
+🛠️ **Restart Explorer:** Shows a submenu to restart Explorer or stop Explorer and start upon key press.
 <br>
 
-📜 [**Create Registry Backup:**](https://github.com/Cinabutts/MyWin11/releases/download/Release_v1.0.0/Create-RegBackup.bat)  
+📜 [**Create Registry Backup:**](https://github.com/Cinabutts/MyWin11/releases/download/Release_v1.0.0/Create-RegBackup.bat)<br>
 Self explanatory. <em><small>Set to be only visible with Shift + right-click on desktop.</small></em>
 
 <p align="center">
   <a href="https://github.com/Cinabutts/MyWin11/releases/download/Release_v1.0.0/Create-RegBackup.bat">
-    <img src="https://img.shields.io/github/downloads/Cinabutts/MyWin11/Create-RegBackup.bat?label=Downloads&color=a6700c" alt="Download Count" />
+    <img
+    src="https://img.shields.io/github/downloads/Cinabutts/MyWin11/Create-RegBackup.bat?label=Downloads&color=a6700c"
+    alt="Download Count"/>
   </a>
 </p>
 
@@ -694,12 +713,18 @@ Self explanatory. <em><small>Set to be only visible with Shift + right-click on 
 
 </details>
 
-📜 [**Create System Links:**](https://github.com/Cinabutts/MyWin11/releases/download/Release_v1.0.0/Create-Syslink.ps1)  
-<em>This script is very useful for the <code>C:/Scripts</code> folder, it can create a system link<br> from wherever you click to any folder. <br><small>Set to be only visible with Shift + right-click on Folders.</small></em>
+📜 [**Create System Links:**](https://github.com/Cinabutts/MyWin11/releases/download/Release_v1.0.0/Create-Syslink.ps1)<br>
+<em>
+This script is very useful for the <code>C:/Scripts</code> folder,
+it can create a system link<br> from wherever you click to any folder.<br>
+<small>Set to be only visible with Shift + right-click on Folders.</small>
+</em>
 
 <p align="center">
   <a href="https://github.com/Cinabutts/MyWin11/releases/download/Release_v1.0.0/Create-Syslinks.ps1">
-    <img src="https://img.shields.io/github/downloads/Cinabutts/MyWin11/Create-Syslinks.ps1?label=Downloads&color=01934c" alt="Download Count" />
+    <img
+      src="https://img.shields.io/github/downloads/Cinabutts/MyWin11/Create-Syslinks.ps1?label=Downloads&color=01934c"
+      alt="Download Count"/>
   </a>
 </p>
 
@@ -720,8 +745,7 @@ Self explanatory. <em><small>Set to be only visible with Shift + right-click on 
 
 </details>
 
-<p align="center">
-<br>
+<p align="center"><br>
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 </p>
 </details>
@@ -739,11 +763,15 @@ Self explanatory. <em><small>Set to be only visible with Shift + right-click on 
 <br><br>
 
 &nbsp;&nbsp;&nbsp;&nbsp;
+<!-- markdownlint-disable-next-line MD013 -->
 ### <img src="Favcons/icon_LIVELY.png" width="40" valign="middle" alt="Lively Wallpaper Icon" /> <strong>Lively Wallpaper</strong>  
-_Description:_ Set animated desktop wallpapers and screensavers.  
-_Download Link:_ [Lively Wallpaper](https://www.rocksdanister.com/lively/) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[GitHub Repo](https://github.com/rocksdanister/lively)
 
-<details>
+_Description:_ Set animated desktop wallpapers and screensavers.  
+_Download Link:_ [Lively Wallpaper](https://www.rocksdanister.com/lively/)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+[GitHub Repo](https://github.com/rocksdanister/lively)
+
+<details><!-- -----------------------------------LIVELY WALLPAPERS/SCREENSAVERS -->
   <summary>My Lively Wallpapers / Screensavers</summary>
   <br>
   <p align="center">
@@ -751,57 +779,43 @@ _Download Link:_ [Lively Wallpaper](https://www.rocksdanister.com/lively/) &nbsp
       <strong>abstract organic lines</strong>
     </a>
   </p>
-
-  ![Preview 1](Images/L1.gif)
-
+<img src="Images/L1.gif" alt="Preview 1" width="600" />
   <p align="center">
     <a href="https://www.desktophut.com/meteor-over-clouds-9009">
       <strong>meteor over clouds</strong>
     </a>
   </p>
-
-  ![Preview 2](Images/L2.gif)
-
+<img src="Images/L2.gif" alt="Preview 2" width="600" />
   <p align="center">
     <a href="https://www.desktophut.com/tropical-green-leaves-6917">
       <strong>tropical green leaves</strong>
     </a>
   </p>
-
-  ![Preview 3](Images/L3.gif)
-
+<img src="Images/L3.gif" alt="Preview 3" width="600" />
   <p align="center">
     <a href="https://moewalls.com/landscape/green-home-live-wallpaper/">
       <strong>green home</strong>
     </a>
   </p>
-
-  ![Preview 4](Images/L4.gif)
-
+<img src="Images/L4.gif" alt="Preview 4" width="600" />
   <p align="center">
     <a href="https://moewalls.com/lifestyle/peaceful-ruins-live-wallpaper/">
       <strong>peaceful ruins</strong>
     </a>
   </p>
-
-  ![Preview 5](Images/L5.gif)
-
+<img src="Images/L5.gif" alt="Preview 5" width="600" />
   <p align="center">
     <a href="https://moewalls.com/landscape/poppy-hill-our-life-beginnings-and-always-live-wallpaper/">
       <strong>poppy hill</strong>
     </a>
   </p>
-
-  ![Preview 6](Images/L6.gif)
-
+<img src="Images/L6.gif" alt="Preview 6" width="600" />
   <p align="center">
     <a href="https://moewalls.com/abstract/windows-10-colorful-live-wallpaper/">
       <strong>windows 10 colorful</strong>
     </a>
   </p>
-
-  ![Preview 7](Images/L7.gif)
-
+  <img src="Images/L7.gif" alt="Preview 7" width="600" />
   <p align="center">
   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
   </p>
@@ -810,20 +824,27 @@ _Download Link:_ [Lively Wallpaper](https://www.rocksdanister.com/lively/) &nbsp
 ---
 
 &nbsp;&nbsp;&nbsp;&nbsp;
+<!-- markdownlint-disable-next-line MD013 -->
 ### <img src="Favcons/icon_DWMGLASS.png" width="45" valign="middle" alt="DWMGlass Icon" /> **DWMGlass**  
 
-_Description:_ Add custom effect to global system title bar, supports Windows 10 and 11.  
-_Download Link:_ [GitHub Repo](https://github.com/Maplespe/DWMBlurGlass)
+_Description:_
+  Add custom effect to global system title bar, supports Windows 10 and 11.  
+_Download Link:_
+[GitHub Repo](https://github.com/Maplespe/DWMBlurGlass)
 
 &nbsp;
 
 ---
 
 &nbsp;&nbsp;&nbsp;&nbsp;
+<!-- markdownlint-disable-next-line MD013 -->
 ### <img src="Favcons/icon_WINDHAWK.png" width="45" valign="middle" alt="Windhawk Icon" /> **Windhawk**  
 
-_Description:_ The customization marketplace for Windows and programs.  
-_Download Link:_ [Windhawk](https://windhawk.net/) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;[GitHub Repo](https://github.com/ramensoftware/windhawk)
+_Description:_
+  The customization marketplace for Windows and programs.  
+_Download Link:_ [Windhawk](https://windhawk.net/)
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+[GitHub Repo](https://github.com/ramensoftware/windhawk)
 
 &nbsp;
 
@@ -831,26 +852,36 @@ _Download Link:_ [Windhawk](https://windhawk.net/) &nbsp;&nbsp;&nbsp;&nbsp;&nbsp
 
 ---
 
+<!-- markdownlint-disable-next-line MD013 -->
 <h2 align="center" style="display: flex; justify-content: center; align-items: center; gap: 10px; font-weight: 900;">
-  <img src="Favcons/icon_WINDHAWK.png" width="40" alt="Windhawk Icon Left" style="vertical-align: middle;" />
+  <img
+  src="Favcons/icon_WINDHAWK.png" width="40"
+  alt="Windhawk Icon Left" style="vertical-align: middle;" />
   Windhawk Mods &amp; Code Snippets
-  <img src="Favcons/icon_WINDHAWK.png" width="40" alt="Windhawk Icon Right" style="vertical-align: middle;" />
+  <img
+  src="Favcons/icon_WINDHAWK.png" width="40"
+  alt="Windhawk Icon Right" style="vertical-align: middle;" />
 </h2>
 
-<p align="center">Here you'll find all my Windhawk Advanced Mod Settings, Inclusion lists Exclusion lists and side notes.</p>
+<p align="center">
+  Here you'll find all my Windhawk Advanced Mod Settings,
+  Inclusion lists Exclusion lists and side notes.
+</p>
 
 ---
 
 <p align="center">
-The <strong>✅INCLUSION/❌EXCLUSION</strong> Lists should be under <code>Settings - Advanced Settings</code> 
+  The <strong>✅INCLUSION/❌EXCLUSION</strong> Lists should be under:
+  <code>Settings - Advanced Settings</code>
 </p><br><br>
 
 <p align="center">
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-  After installing a mod <strong>paste</strong> the code into the corresponding mods -  <code>Advanced - Mod Settings</code>.<br><br>
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  After installing a mod <strong>paste</strong> the code into the corresponding mods:
+  <code>Advanced - Mod Settings</code>.<br><br>
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <strong>Default</strong> = no changes were made to the mod's settings.
-  </p>
+</p>
 
 ---
 
@@ -865,7 +896,7 @@ ControllerCompanion.exe
 ---
 
 <p align="left">
-<strong>✅INCLUSION</strong> List: 
+<strong>✅INCLUSION</strong> List:
 </p>
 
 <p align="left">
@@ -879,8 +910,11 @@ explorer.exe<br>
 
 <br>
 
+<!-- markdownlint-disable-next-line MD013 -->
 <h3 align="center" style="display: flex; justify-content: center; align-items: center; gap: 10px; font-weight: 900;">
-  <img src="Favcons/icon_WINDHAWK.png" width="40" alt="Windhawk Icon" style="vertical-align: middle;" />
+  <img
+  src="Favcons/icon_WINDHAWK.png" width="40"
+  alt="Windhawk Icon" style="vertical-align: middle;" />
   Windhawk Advanced Mod Settings
 </h3>
 
@@ -897,6 +931,7 @@ explorer.exe<br>
 <div align="left">
 
 - **Mod Identifier:**&nbsp;&nbsp;&nbsp;&nbsp;taskbar-empty-space-clicks  
+<!-- markdownlint-disable -->
 
 ```json
 {
@@ -929,10 +964,8 @@ explorer.exe<br>
 }
 ```
 
-
 ---
 
-  
 - **Mod Identifier:**&nbsp;&nbsp;&nbsp;&nbsp;taskbar-left-click-cycle
   
 - **Default**
@@ -1235,7 +1268,6 @@ explorer.exe<br>
   "styleConstants[2]": "taskbarBlurIncreace=7"
 }
 ```
-
   </details>
 </div>
-
+<!-- markdownlint-enable -->
