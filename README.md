@@ -85,7 +85,7 @@ Write-Host "`nScript finished." -ForegroundColor Green
 </p>
 
 <p align="center">
-If you are starting fresh click "MicroWin" and follow the instructions there, Use a pre-existing ISO, or create a new one with the latest Windows 11 ISO.
+If you are starting fresh click "MicroWin" and follow the instructions there. Use a pre-existing ISO, or create a new one with the latest Windows 11 ISO.
 </p>
 
 <p align="center">
