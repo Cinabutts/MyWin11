@@ -761,21 +761,38 @@ it can create a system link<br> from wherever you click to any folder.<br>
 ---
 
 <br><br>
-<div align="right">
-  ⚠️<strong>Note:</strong>
-  <sub>
-    If you are having HDR issues in things like
-    your Screensaver or VSCode, you might want to try out
-    <a href="https://example.com">Wallpaper Engine</a>.
-    The $5 is worth it.
-  </sub>
-</div>
-<div align="center">
-<sup>Then you'll just have to drag/drop the mp4 files into the Wallpaper Editor.</sup>
-</div>
-<sub>Also in my opinion Lively seems to be dead in comparison.</sub>
 
-<sup>And this has more if not the same amount of features. Though IS a Steam app.</sup>
+<div style="display: flex; align-items: center;">
+  <img src="Favcons/Icon_WALLENGINE.gif" alt="Preview"
+  style="width: 40px;
+  height: auto;
+  object-fit: cover;
+  padding: 20px;
+  border-radius: 8px;" />
+  <div>
+    <div align="right">
+      ⚠️<strong>Note:</strong>
+      <sub>
+        If you are having HDR issues in things like
+        your Screensaver or VSCode, you might want to try out Wallpaper Engine.
+      </sub>
+    </div>
+    <div align="center">
+      <sup>The <strong>$5</strong> is worth it.
+      Then you'll just have to drag/drop the mp4 files into the Wallpaper Editor.
+      </sup>
+    </div>
+    <sub>Also in my opinion Lively seems to be dead in comparison.</sub><br>
+    <sup>And this has more if not the same amount of features.</sup>
+
+<a href="https://store.steampowered.com/app/431960/Wallpaper_Engine/"
+style="display: flex; align-items: center; width: 300px; height: 50px; border-radius: 8px; background-color: #352323ff; color: #dd0404ff; text-decoration: none; padding: 10px;">Wallpaper Engine</a>
+<sub> (Steam)</sub>
+
+<a href="https://store.steampowered.com/app/431960/Wallpaper_Engine/">Wallpaper Engine</a><sub> (Steam)</sub>
+  </div>
+</div>
+<br>
 
 ======================================
 <!-- markdownlint-disable-next-line MD013 -->
