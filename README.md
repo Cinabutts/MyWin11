@@ -786,13 +786,14 @@ it can create a system link<br> from wherever you click to any folder.<br>
     <sup>And this has more if not the same amount of features.</sup>
 
 <a href="https://store.steampowered.com/app/431960/Wallpaper_Engine/"
-style="display: flex; align-items: center; width: 300px; height: 50px; border-radius: 8px; background-color: #352323ff; color: #dd0404ff; text-decoration: none; padding: 10px;">Wallpaper Engine</a>
+style="padding: 40px;">Wallpaper Engine</a>
 <sub> (Steam)</sub>
 
-<a href="https://store.steampowered.com/app/431960/Wallpaper_Engine/">Wallpaper Engine</a><sub> (Steam)</sub>
+<a href="https://www.wallpaperengine.io/en"
+style="padding: 40px;">Wallpaper Engine</a>
+<sub> (Website)</sub>
   </div>
-</div>
-<br>
+</div><br>
 
 ======================================
 <!-- markdownlint-disable-next-line MD013 -->
