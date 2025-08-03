@@ -760,8 +760,6 @@ it can create a system link<br> from wherever you click to any folder.<br>
 
 ---
 
-<br><br>
-
 <div style="display: flex; align-items: center;">
   <img src="Favcons/Icon_WALLENGINE.gif" alt="Preview"
   style="width: 40px;
