@@ -770,13 +770,11 @@ it can create a system link<br> from wherever you click to any folder.<br>
   padding: 20px;
   border-radius: 8px;" />
   <div>
-    <div align="right">
       ⚠️<strong>Note:</strong>
       <sub>
         If you are having HDR issues in things like
         your Screensaver or VSCode, you might want to try out Wallpaper Engine.
       </sub>
-    </div>
     <div align="center">
       <sup>The <strong>$5</strong> is worth it.
       Then you'll just have to drag/drop the mp4 files into the Wallpaper Editor.
