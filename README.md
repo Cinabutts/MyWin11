@@ -761,8 +761,23 @@ it can create a system link<br> from wherever you click to any folder.<br>
 ---
 
 <br><br>
+<div align="right">
+  ⚠️<strong>Note:</strong>
+  <sub>
+    If you are having HDR issues in things like
+    your Screensaver or VSCode, you might want to try out
+    <a href="https://example.com">Wallpaper Engine</a>.
+    The $5 is worth it.
+  </sub>
+</div>
+<div align="center">
+<sup>Then you'll just have to drag/drop the mp4 files into the Wallpaper Editor.</sup>
+</div>
+<sub>Also in my opinion Lively seems to be dead in comparison.</sub>
 
-&nbsp;&nbsp;&nbsp;&nbsp;
+<sup>And this has more if not the same amount of features. Though IS a Steam app.</sup>
+
+======================================
 <!-- markdownlint-disable-next-line MD013 -->
 ### <img src="Favcons/icon_LIVELY.png" width="40" valign="middle" alt="Lively Wallpaper Icon" /> <strong>Lively Wallpaper</strong>  
 
