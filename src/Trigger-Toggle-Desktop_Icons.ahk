@@ -1,4 +1,5 @@
-﻿; #SingleInstance, Force
+﻿; Trigger-Toggle-Desktop-Icons by Cinabutts    (https://github.com/Cinabutts)
+; #SingleInstance, Force
 ; #notrayicon
 ; #warn All, Off
 ; ======================================================================
