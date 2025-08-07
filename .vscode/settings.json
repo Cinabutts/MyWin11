@@ -19,5 +19,8 @@
     // This tells the linter to not even look at the LICENSE file
     "markdownlint.ignore": [
         "**/LICENSE"
+    ],
+    "markdown.validate.ignoredLinks": [
+        "#--autohotkey"
     ]
 }

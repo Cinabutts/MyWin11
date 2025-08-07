@@ -199,6 +199,36 @@ _Download Link:_ [AutoHotKey](https://www.autohotkey.com/) &nbsp;&nbsp;&nbsp;&nb
 
 <details>
   <summary>Scripts: </summary><br>
+<div align="center">
+  <strong>Toggle-Desktop-Icons.ahk</strong>
+  <p align="center">
+    <a href="https://github.com/Cinabutts/MyWin11/releases/download/Release_v1.0.0/Trigger-Toggle-Desktop_Icons.ahk">
+      <img src="https://img.shields.io/github/downloads/Cinabutts/MyWin11/latest/Trigger-Toggle-Desktop_Icons.ahk?style=flat-square&label=Install:&labelColor=black&color=%234ea3e3"
+        alt="Download Count" />
+    </a>
+  </p>
+  <p>
+    <em>Description:</em> Used in combination with my Windhawk mod<br>
+    <a href="https://github.com/Cinabutts/MyWin11/releases/download/Release_v1.0.0/WinGet-ChrisTitus-Setup.ps1"
+      title="Toggle Desktop Icons">
+      "Desktop Icons Toggle"
+    </a> to trigger its hotkey shortcut.
+  </p>
+</div>
+  <div align="center">
+    <details>
+      <summary>Script 1:</summary>
+      <div align="left">
+      <!-- markdownlint-disable -->
+
+```ahk <!----------------------------------------------------------AHK-Script1 -->
+
+```
+
+
+</div></details></div>
+      <!-- markdownlint-enable -->
+
   <div align="center">
     <strong>Better_Win-Tab.ahk</strong>
     <p align="center">
@@ -207,7 +237,9 @@ _Download Link:_ [AutoHotKey](https://www.autohotkey.com/) &nbsp;&nbsp;&nbsp;&nb
         alt="Download Count" />
       </a>
     </p>
-    <p><em>Description:</em> Allows you to use the mouse wheel to<br>scroll between tabs. <i>(Space to select)</i></p>
+    <p>
+  <em>Description:</em> Allows you to use the mouse wheel to<br>
+    scroll between tabs. <i>(Space to select)</i></p>
   </div>
   <div align="center">
     <details>
@@ -215,7 +247,7 @@ _Download Link:_ [AutoHotKey](https://www.autohotkey.com/) &nbsp;&nbsp;&nbsp;&nb
       <div align="left">
       <!-- markdownlint-disable -->
 
-```ahk <!----------------------------------------------------------AHK-Script1 -->
+```ahk <!----------------------------------------------------------AHK-Script2 -->
 ; Better Win-Tab by Cinabutts    (https://github.com/Cinabutts)
 #Requires AutoHotkey v2.0
 #SingleInstance Force
@@ -256,7 +288,7 @@ WheelDown::Send "{Right}"
     <div align="left">
 <!-- markdownlint-disable -->
 
-```ahk <!----------------------------------------------------------AHK-Script2 -->
+```ahk <!----------------------------------------------------------AHK-Script3 -->
 ;Alt-Tab Replacement by jeeswg    (https://github.com/jeeswg)
 
 #SingleInstance force
