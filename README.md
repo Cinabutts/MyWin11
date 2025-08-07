@@ -3,6 +3,7 @@
 <p align="center">
 Welcome! This project documents how I customized my Windows 11 installation, starting from a default setup to its current state.<br>
 The intention is for this to serve as a reference for myself and a user guide for others.
+<br><strong>This repo is Perpetually-Evolving</strong>
 </p>
 <br>
 <p align="center">
