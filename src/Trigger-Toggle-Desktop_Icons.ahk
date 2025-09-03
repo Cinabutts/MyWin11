@@ -1,6 +1,6 @@
 ﻿; Trigger-Toggle-Desktop-Icons by Cinabutts    (https://github.com/Cinabutts)
-; #SingleInstance, Force
-; #notrayicon
+; THIS IS TRIGGERED VIA TASKBAR MIDDLE-MOUSE CLICK via the settings from within the windhawk mod "taskbar-empty-space-clicks"
+
 ; #warn All, Off
 ; ======================================================================
 ; This triggers the Windhawk mod "desktop-icons-toggle" (Working vers: 1.2)
@@ -19,6 +19,7 @@
 
 #Requires AutoHotkey v2.0+
 #SingleInstance Force
+; #NoTrayIcon
 ; #warn All, Off
 
 ; Define the path to the Windhawk mod's settings in the registry.
@@ -42,13 +43,14 @@ if (HotkeyCombo != "") {	;This is where i believe you need to return the new com
 		
     WinMinimizeAll  ; Minimizes all windows (shows desktop)
     Sleep(200)
-    Send(HotkeyCombo)
+    Send(HotkeyCombo)		; <------- TRIGGERS WINDHAWK MOD HERE VIA THE FOUND COMBO
 } else {
     ; If reading the registry fails, display an error message.
     MsgBox("Error: Could not retrieve the hotkey combination from the registry.`n`nPlease check if the Windhawk mod 'desktop-icons-toggle' is installed and configured correctly.", "Hotkey Script Error", "Icon!")
 }
 
 ; The script will now exit after sending the hotkey or showing an error.
+sleep 5000
 ExitApp
 
 ; ======================================================================
