@@ -19,11 +19,12 @@
 
 #Requires AutoHotkey v2.0+
 #SingleInstance Force
-; #NoTrayIcon
+#NoTrayIcon
 ; #warn All, Off
 
 ; Define the path to the Windhawk mod's settings in the registry.
 global RegPath := "HKLM\SOFTWARE\Windhawk\Engine\Mods\local@desktop-icons-toggle\Settings"
+global DebugRegPath := "HKLM\SOFTWARE\Windhawk\Engine\Mods\local@desktop-icons-toggle"
 ; Initialize the hotkey combination variable.
 global HotkeyCombo := ""
 
@@ -63,9 +64,10 @@ ExitApp
  * Reads the hotkey configuration from the Windows Registry and updates the global HotkeyCombo variable.
  */
 RefreshHotkeyCombo() {
-    global RegPath, HotkeyCombo
+    global DebugRegPath, RegPath, HotkeyCombo
     try {
         ; Read the modifier key settings and the hotkey character from the registry.
+        
         local useCtrl := RegRead(RegPath, "UseCtrl")
         local useAlt := RegRead(RegPath, "UseAlt")
 			; Keep for future accommodations
@@ -92,7 +94,26 @@ RefreshHotkeyCombo() {
         ; Combine the modifiers and the hotkey character to form the final hotkey string.
         HotkeyCombo := modifiers . hotkeyChar
 		
-		; MsgBox modifiers . hotkeyChar
+        
+;=======================check if mod is in debug mod if so show the accociated hotkey
+        local DebugLoggingEnabled := RegRead(DebugRegPath, "DebugLoggingEnabled")
+        local LoggingEnabled := RegRead(DebugRegPath, "LoggingEnabled")
+        
+        if DebugLoggingEnabled || LoggingEnabled == 1
+        {
+        Debug := true
+        msgbox "Detailed Debug Logs: " DebugLoggingEnabled " -- " "Mod Logs: " LoggingEnabled
+        }
+        else 
+        {
+        Debug := false
+        }
+        
+		if Debug == true
+        {
+        MsgBox modifiers . hotkeyChar
+        }
+;==============================================================end of debug        
         return true ; Indicate success
     } catch {
         ; If there's an error reading from the registry, reset the combo and indicate failure.
