@@ -1,7 +1,16 @@
 name: Build Release
 
 on:
-  workflow_dispatch:  # Manual trigger
+  workflow_dispatch:
+    inputs:
+      delete_previous:
+        description: 'Delete previous release?'
+        required: true
+        default: 'false'
+        type: choice
+        options:
+        - 'true'
+        - 'false'
   push:
     branches:
       - main
@@ -29,6 +38,7 @@ jobs:
           
           if ($tags.Count -eq 0) {
             $newVersion = "v1.0.1"
+            $previousVersion = ""
           } else {
             $latestTag = $tags[0]
             # Parse version (e.g., v1.2.3 -> 1.2.3)
@@ -41,10 +51,21 @@ jobs:
             # Increment patch version
             $patch++
             $newVersion = "v$major.$minor.$patch"
+            $previousVersion = $latestTag
           }
           
           echo "New version: $newVersion"
+          echo "Previous version: $previousVersion"
           echo "version=$newVersion" >> $env:GITHUB_OUTPUT
+          echo "previous=$previousVersion" >> $env:GITHUB_OUTPUT
+
+      - name: Delete previous release
+        if: github.event.inputs.delete_previous == 'true' && steps.version.outputs.previous != ''
+        shell: pwsh
+        run: |
+          gh release delete ${{ steps.version.outputs.previous }} --yes
+        env:
+          GH_TOKEN: ${{ github.token }}
 
       - name: Create src archive
         shell: pwsh
@@ -55,7 +76,7 @@ jobs:
         uses: softprops/action-gh-release@v2
         with:
           tag_name: ${{ steps.version.outputs.version }}
-          name: "MyWin11 Release ${{ steps.version.outputs.version }}"
+          name: "MyWin11 ${{ steps.version.outputs.version }}"
           body: |
             MyWin11 tools and scripts collection.
             
