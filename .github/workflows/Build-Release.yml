@@ -24,11 +24,13 @@ jobs:
         id: version
         shell: pwsh
         run: |
-          # Get the latest tag
-          $latestTag = git describe --tags --abbrev=0 2>$null
-          if (-not $latestTag) {
-            $newVersion = "v1.0.0"
+          # Get all tags and filter for semantic version tags only (v1.2.3 format)
+          $tags = git tag -l | Where-Object { $_ -match '^v\d+\.\d+\.\d+$' } | Sort-Object { [Version]($_ -replace '^v', '') } -Descending
+          
+          if ($tags.Count -eq 0) {
+            $newVersion = "v1.0.1"
           } else {
+            $latestTag = $tags[0]
             # Parse version (e.g., v1.2.3 -> 1.2.3)
             $version = $latestTag -replace '^v', ''
             $parts = $version.Split('.')
