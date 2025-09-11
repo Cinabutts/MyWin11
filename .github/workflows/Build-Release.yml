@@ -89,7 +89,7 @@ jobs:
       - name: Create latest tag for README links
         shell: pwsh
         run: |
-          git tag latest ${{ steps.version.outputs.version }}
-          git push origin latest
+          git tag latest
+          git push origin latest --force
         env:
           GH_TOKEN: ${{ github.token }}
