@@ -60,11 +60,6 @@ jobs:
         env:
           GH_TOKEN: ${{ github.token }}
 
-      - name: Create src archive
-        shell: pwsh
-        run: |
-          Compress-Archive -Path "src\*" -DestinationPath "MyWin11-src-${{ steps.version.outputs.version }}.zip"
-
       - name: Create GitHub Release
         uses: softprops/action-gh-release@v2
         with:
@@ -76,12 +71,10 @@ jobs:
             **What's included:**
             - Source code (automatic .zip and .tar.gz)
             - Individual src files as assets
-            - Complete src folder as MyWin11-src-*.zip
             
             **Installation:**
             Download individual files or the complete archive.
           files: |
-            MyWin11-src-${{ steps.version.outputs.version }}.zip
             src/*
           draft: false
           prerelease: false
