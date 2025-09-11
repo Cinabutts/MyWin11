@@ -50,13 +50,11 @@ jobs:
           echo "version=$newVersion" >> $env:GITHUB_OUTPUT
           echo "previous=$previousVersion" >> $env:GITHUB_OUTPUT
 
-      - name: Delete previous release and latest tag
+      - name: Delete previous release
         if: steps.version.outputs.previous != ''
         shell: pwsh
         run: |
           gh release delete ${{ steps.version.outputs.previous }} --yes
-          git tag -d latest 2>$null || true
-          git push origin --delete latest 2>$null || true
         env:
           GH_TOKEN: ${{ github.token }}
 
@@ -78,11 +76,3 @@ jobs:
             src/*
           draft: false
           prerelease: false
-
-      - name: Create latest tag for README links
-        shell: pwsh
-        run: |
-          git tag latest
-          git push origin latest --force
-        env:
-          GH_TOKEN: ${{ github.token }}
