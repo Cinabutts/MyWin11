@@ -1,0 +1,4 @@
+.git/
+.vscode/record/
+.vscode/record/.gitignore
+!desktop-icons-toggle.wh.cpp
