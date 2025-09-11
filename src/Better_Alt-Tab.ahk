@@ -7,7 +7,6 @@ Menu, Tray, Click, 1
 #NoEnv
 AutoTrim, Off
 #UseHook
-;#NoTrayIcon
  
  SplitPath, A_ScriptName,,,, vScriptNameNoExt
  Menu, Tray, Tip, % vScriptNameNoExt
