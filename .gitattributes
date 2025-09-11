@@ -1,2 +1,33 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Explicitly mark text files
+*.md text
+*.txt text
+*.ps1 text
+*.bat text eol=crlf
+*.ahk text
+*.py text
+*.ini text
+*.yml text
+*.yaml text
+*.json text
+
+# Binary files (ensure they're not treated as text)
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+*.ico binary
+*.exe binary
+*.dll binary
+*.zip binary
+
+# Language-specific settings
+*.ps1 linguist-language=PowerShell
+*.ahk linguist-language=AutoHotkey
+*.bat linguist-language=Batchfile
+
+# Keep Windows batch files with CRLF endings (required for proper execution)
+*.bat eol=crlf
+*.cmd eol=crlf
