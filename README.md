@@ -18,7 +18,7 @@ Feel free to support my strugglin ass and get my 2 year old daughter a snack her
 <div align="center">
 
   ![GitHub Release Date](https://img.shields.io/github/release-date/Cinabutts/MyWin11?style=plastic&label=Release%20Date%3A&labelColor=white) &nbsp;
-  ![GitHub Downloads (all assets, latest release)](https://img.shields.io/github/downloads/Cinabutts/MyWin11/latest/total?style=plastic&label=Total%20Downloads%3A&labelColor=white&color=black) &nbsp;
+  ![GitHub Downloads (all assets, all releases)](https://img.shields.io/github/downloads/Cinabutts/MyWin11/total) &nbsp;
   ![GitHub Repo stars](https://img.shields.io/github/stars/Cinabutts/MyWin11?style=social) &nbsp;
   ![GitHub forks](https://img.shields.io/github/forks/Cinabutts/MyWin11?style=social)
   [![Typing SVG](https://readme-typing-svg.herokuapp.com?font=Silkscreen&size=17&letterSpacing=-3px&pause=1000&color=F7BC00&center=true&vCenter=true&width=435&lines=%E2%9A%A0%EF%B8%8F+Tested+on+Windows+11+24H2+Build%3A+26100.4770%E2%9A%A0%EF%B8%8F)](https://git.io/typing-svg)
