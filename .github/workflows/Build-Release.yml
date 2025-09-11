@@ -1,16 +1,7 @@
 name: Build Release
 
 on:
-  workflow_dispatch:
-    inputs:
-      delete_previous:
-        description: 'Delete previous release?'
-        required: true
-        default: 'false'
-        type: choice
-        options:
-        - 'true'
-        - 'false'
+  workflow_dispatch:  # Manual trigger
   push:
     branches:
       - main
@@ -37,7 +28,7 @@ jobs:
           $tags = git tag -l | Where-Object { $_ -match '^v\d+\.\d+\.\d+$' } | Sort-Object { [Version]($_ -replace '^v', '') } -Descending
           
           if ($tags.Count -eq 0) {
-            $newVersion = "v1.0.1"
+            $newVersion = "v0.0.1"
             $previousVersion = ""
           } else {
             $latestTag = $tags[0]
@@ -59,11 +50,13 @@ jobs:
           echo "version=$newVersion" >> $env:GITHUB_OUTPUT
           echo "previous=$previousVersion" >> $env:GITHUB_OUTPUT
 
-      - name: Delete previous release
-        if: github.event.inputs.delete_previous == 'true' && steps.version.outputs.previous != ''
+      - name: Delete previous release and latest tag
+        if: steps.version.outputs.previous != ''
         shell: pwsh
         run: |
           gh release delete ${{ steps.version.outputs.previous }} --yes
+          git tag -d latest 2>$null || true
+          git push origin --delete latest 2>$null || true
         env:
           GH_TOKEN: ${{ github.token }}
 
@@ -92,3 +85,11 @@ jobs:
             src/*
           draft: false
           prerelease: false
+
+      - name: Create latest tag for README links
+        shell: pwsh
+        run: |
+          git tag latest ${{ steps.version.outputs.version }}
+          git push origin latest
+        env:
+          GH_TOKEN: ${{ github.token }}

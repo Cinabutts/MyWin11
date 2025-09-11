@@ -32,7 +32,7 @@ I created this script which ensures Winget is installed before running. 🧹
 </p>
 
 <p align="center">
-  <a href="https://github.com/Cinabutts/MyWin11/releases/download/Release_v1.0.0/WinGet-ChrisTitus-Setup.ps1" download>
+  <a href="https://github.com/Cinabutts/MyWin11/releases/download/latest/WinGet-ChrisTitus-Setup.ps1" download>
     📥 Download WinGet-ChrisTitus-Setup.ps1
   </a>
 </p>
@@ -165,13 +165,13 @@ _Download Link:_ [Winaero Tweaker](https://winaero.com/winaero-tweaker/)
 <details>
 <summary>Config</summary>
 <p align="center">
-  <a href="https://github.com/Cinabutts/MyWin11/releases/download/Release_v1.0.0/WinaeroTweaker-Config_07_27_25.ini" download>
+  <a href="https://github.com/Cinabutts/MyWin11/releases/download/latest/WinaeroTweaker-Config_07_27_25.ini" download>
     <strong>My Configuration .ini</strong>
   </a><br>
   <em>Once Winaero Tweaker is installed, import this config under <code>File → Import/Export Tweaks</code></em>
 </p>
 <p align="center">
-  <a href="https://github.com/Cinabutts/MyWin11/releases/download/Release_v1.0.0/WinaeroTweaker-Config_07_27_25.ini">
+  <a href="https://github.com/Cinabutts/MyWin11/releases/download/latest/WinaeroTweaker-Config_07_27_25.ini">
     <img src="https://img.shields.io/github/downloads/Cinabutts/MyWin11/WinaeroTweaker-Config_07_27_25.ini?label=Downloads&color=blue" alt="Download Count" />
   </a>
 </p>
@@ -202,7 +202,7 @@ _Download Link:_ [AutoHotKey](https://www.autohotkey.com/) &nbsp;&nbsp;&nbsp;&nb
 <div align="center">
   <strong>Toggle-Desktop-Icons.ahk</strong>
   <p align="center">
-    <a href="https://github.com/Cinabutts/MyWin11/releases/download/Release_v1.0.0/Trigger-Toggle-Desktop_Icons.ahk">
+    <a href="https://github.com/Cinabutts/MyWin11/releases/download/latest/Trigger-Toggle-Desktop_Icons.ahk">
       <img src="https://img.shields.io/github/downloads/Cinabutts/MyWin11/latest/Trigger-Toggle-Desktop_Icons.ahk?style=flat-square&label=Install:&labelColor=black&color=%234ea3e3"
         alt="Download Count" />
     </a>
@@ -336,7 +336,7 @@ RefreshHotkeyCombo() {
   <div align="center">
     <strong>Better_Win-Tab.ahk</strong>
     <p align="center">
-      <a href="https://github.com/Cinabutts/MyWin11/releases/download/Release_v1.0.0/Better_Win-Tab.ahk">
+      <a href="https://github.com/Cinabutts/MyWin11/releases/download/latest/Better_Win-Tab.ahk">
         <img src="https://img.shields.io/github/downloads/Cinabutts/MyWin11/latest/Better_Win-Tab.ahk?style=flat-square&label=Install:&labelColor=black&color=%237e48ca"
         alt="Download Count" />
       </a>
@@ -376,7 +376,7 @@ WheelDown::Send "{Right}"
 <div align="center">
   <strong>Better_Alt-Tab.ahk</strong>
   <p align="center">
-    <a href="https://github.com/Cinabutts/MyWin11/releases/download/Release_v1.0.0/Better_Alt-Tab.ahk">
+    <a href="https://github.com/Cinabutts/MyWin11/releases/download/latest/Better_Alt-Tab.ahk">
         <img src="https://img.shields.io/github/downloads/Cinabutts/MyWin11/latest/Better_Alt-Tab.ahk?style=flat-square&label=Install:&labelColor=black&color=%23e618ca"
         alt="Download Count" />
       </a>
@@ -745,14 +745,14 @@ _Description:_
 
 <p align="center"><strong>Save under <code>C:/Scripts</code></strong> for easy accessibility</p><br>
 
-📜 [**Re-Sort:**](https://github.com/Cinabutts/MyWin11/releases/download/Release_v1.0.0/Re-Sort.ahk)<br>
+📜 [**Re-Sort:**](https://github.com/Cinabutts/MyWin11/releases/download/latest/Re-Sort.ahk)<br>
 <em>
   Runs a custom script to resort the desktop icons,
   assumes the default state is Date Modified.
 </em>
 
 <p align="center">
-  <a href="https://github.com/Cinabutts/MyWin11/releases/download/Release_v1.0.0/Re-Sort.ahk">
+  <a href="https://github.com/Cinabutts/MyWin11/releases/download/latest/Re-Sort.ahk">
     <img
     src="https://img.shields.io/github/downloads/Cinabutts/MyWin11/Re-Sort.ahk?label=Downloads&color=3e73e5"
     alt="Download Count" />
@@ -777,13 +777,13 @@ _Description:_
 
 </details><br>
 
-📜 [**Create Restore Point:**](https://github.com/Cinabutts/MyWin11/releases/download/Release_v1.0.0/CreateRestorePoint.ps1)<br>
+📜 [**Create Restore Point:**](https://github.com/Cinabutts/MyWin11/releases/download/latest/CreateRestorePoint.ps1)<br>
 <em>
 Self explanatory.
 </em>
 
 <p align="center">
-  <a href="https://github.com/Cinabutts/MyWin11/releases/download/Release_v1.0.0/CreateRestorePoint.ps1">
+  <a href="https://github.com/Cinabutts/MyWin11/releases/download/latest/CreateRestorePoint.ps1">
     <img
     src="https://img.shields.io/github/downloads/Cinabutts/MyWin11/CreateRestorePoint.ps1?label=Downloads&color=d23e81"
     alt="Download Count" />
@@ -822,11 +822,11 @@ Self explanatory.
 🛠️ **Restart Explorer:** Shows a submenu to restart Explorer or stop Explorer and start upon key press.
 <br>
 
-📜 [**Create Registry Backup:**](https://github.com/Cinabutts/MyWin11/releases/download/Release_v1.0.0/Create-RegBackup.bat)<br>
+📜 [**Create Registry Backup:**](https://github.com/Cinabutts/MyWin11/releases/download/latest/Create-RegBackup.bat)<br>
 Self explanatory. <em><small>Set to be only visible with Shift + right-click on desktop.</small></em>
 
 <p align="center">
-  <a href="https://github.com/Cinabutts/MyWin11/releases/download/Release_v1.0.0/Create-RegBackup.bat">
+  <a href="https://github.com/Cinabutts/MyWin11/releases/download/latest/Create-RegBackup.bat">
     <img
     src="https://img.shields.io/github/downloads/Cinabutts/MyWin11/Create-RegBackup.bat?label=Downloads&color=a6700c"
     alt="Download Count"/>
@@ -850,7 +850,7 @@ Self explanatory. <em><small>Set to be only visible with Shift + right-click on 
 
 </details>
 
-📜 [**Create System Links:**](https://github.com/Cinabutts/MyWin11/releases/download/Release_v1.0.0/Create-Syslink.ps1)<br>
+📜 [**Create System Links:**](https://github.com/Cinabutts/MyWin11/releases/download/latest/Create-Syslink.ps1)<br>
 <em>
 This script is very useful for the <code>C:/Scripts</code> folder,
 it can create a system link<br> from wherever you click to any folder.<br>
@@ -858,7 +858,7 @@ it can create a system link<br> from wherever you click to any folder.<br>
 </em>
 
 <p align="center">
-  <a href="https://github.com/Cinabutts/MyWin11/releases/download/Release_v1.0.0/Create-Syslinks.ps1">
+  <a href="https://github.com/Cinabutts/MyWin11/releases/download/latest/Create-Syslinks.ps1">
     <img
       src="https://img.shields.io/github/downloads/Cinabutts/MyWin11/Create-Syslinks.ps1?label=Downloads&color=01934c"
       alt="Download Count"/>
