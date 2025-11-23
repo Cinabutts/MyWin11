@@ -1,124 +1,103 @@
-﻿; Trigger-Toggle-Desktop-Icons by Cinabutts    (https://github.com/Cinabutts)
-; THIS IS TRIGGERED VIA TASKBAR MIDDLE-MOUSE CLICK via the settings from within the windhawk mod "taskbar-empty-space-clicks"
-
-; #warn All, Off
-; ======================================================================
-; This triggers the Windhawk mod "desktop-icons-toggle" (Working vers: 1.2)
-; +========================_++DO NOT MODIFY++_========================+
-; ======================================================================
-    ; WinMinimizeAll  ; Minimizes all windows (shows desktop)
-    ; Sleep(200)
-	; Send("^!d")		;comment this/uncomment below to do the classic way right click desktop - context menu - etc.
-
-    ; Send("{AppsKey}")  ; Open context menu on desktop
-    ; Sleep(1000)
-    ; Send("v")         ; 'v' is the shortcut for "View" in English Windows
-    ; Sleep(1000)
-    ; Send("d")         ; 'd' toggles "Show desktop icons"
-
-
+﻿; Trigger-Toggle-Desktop-Icons by Cinabutts
 #Requires AutoHotkey v2.0+
 #SingleInstance Force
 #NoTrayIcon
-; #warn All, Off
-
-; Define the path to the Windhawk mod's settings in the registry.
-global RegPath := "HKLM\SOFTWARE\Windhawk\Engine\Mods\local@desktop-icons-toggle\Settings"
-global DebugRegPath := "HKLM\SOFTWARE\Windhawk\Engine\Mods\local@desktop-icons-toggle"
-; Initialize the hotkey combination variable.
-global HotkeyCombo := ""
 
 ; ======================================================================
-; MAIN SCRIPT EXECUTION
-; This is what runs when the script is launched.
+; SETTINGS
+; ======================================================================
+global ToggleMinimize := 0      ; 1 = Minimize Windows + Toggle, 0 = Just Toggle
+global StateFile := A_Temp "\Windhawk_Desktop_State.ini"
+
+global RegPath := "HKLM\SOFTWARE\Windhawk\Engine\Mods\local@desktop-icons-toggle"
+global Settings_RegPath := RegPath "\Settings"
+
+; ======================================================================
+; MAIN LOGIC
 ; ======================================================================
 
-; Attempt to refresh the hotkey combination from the registry upon starting.
-RefreshHotkeyCombo()
+; 1. Attempt to get Windhawk Key
+Combo := ""
+Source := "Windhawk"
 
-; Check if a valid hotkey combination was retrieved.
-if (HotkeyCombo != "") {	;This is where i believe you need to return the new combo instead of just ""
-    ; If successful, send the retrieved hotkey combination.
-		; "Warning: This global variable appears to never be assigned a value."
-		; MsgBox modifiers . hotkeyChar		;this throws error regardless of if it's detected the shortcut/that popup shows up.
-		
-    WinMinimizeAll  ; Minimizes all windows (shows desktop)
-    Sleep(200)
-    Send(HotkeyCombo)		; <------- TRIGGERS WINDHAWK MOD HERE VIA THE FOUND COMBO
-} else {
-    ; If reading the registry fails, display an error message.
-    MsgBox("Error: Could not retrieve the hotkey combination from the registry.`n`nPlease check if the Windhawk mod 'desktop-icons-toggle' is installed and configured correctly.", "Hotkey Script Error", "Icon!")
+; Check if Mod is Enabled (!RegRead flips 1->0 / 0->1) and get key
+if GetModState()
+    Combo := GetWindhawkKey()
+
+; 2. Fallback to Wallpaper Engine if Windhawk failed
+if (Combo = "" && ProcessExist("wallpaper64.exe")) {
+    Combo := "^+!0"
+    Source := "WallpaperEngine"
 }
 
-; The script will now exit after sending the hotkey or showing an error.
-sleep 5000
+; 3. Execute or Fail
+if (Combo != "") {
+    ExecuteToggle(Combo, Source)
+    Sleep 3500
+} else {
+    Tooltip "No hotkey found (Mod disabled & WPE not running)."
+    Sleep 2000
+}
 ExitApp
 
 ; ======================================================================
 ; FUNCTIONS
-; These can be called as needed. The 'RefreshHotkeyCombo' function
-; is designed to be reusable.
 ; ======================================================================
 
-/**
- * Reads the hotkey configuration from the Windows Registry and updates the global HotkeyCombo variable.
- */
-RefreshHotkeyCombo() {
-    global DebugRegPath, RegPath, HotkeyCombo
-    try {
-        ; Read the modifier key settings and the hotkey character from the registry.
-        
-        local useCtrl := RegRead(RegPath, "UseCtrl")
-        local useAlt := RegRead(RegPath, "UseAlt")
-			; Keep for future accommodations
-        ; local useShift := RegRead(RegPath, "UseShift") ; Assuming a 'UseShift' might exist
-        ; local useWin := RegRead(RegPath, "UseWin")   ; Assuming a 'UseWin' might exist
-        local hotkeyChar := RegRead(RegPath, "HotkeyChar")
-
-        ; Build the modifier string based on the registry values.
-        local modifiers := ""
-        if (useCtrl = 1) {
-            modifiers .= "^"
-        }
-        if (useAlt = 1) {
-            modifiers .= "!"
-        }
-			; Keep for future accommodations
-        ; if (useShift = 1) {
-            ; modifiers .= "+"
-        ; }
-        ; if (useWin = 1) {
-            ; modifiers .= "#"
-        ; }
-
-        ; Combine the modifiers and the hotkey character to form the final hotkey string.
-        HotkeyCombo := modifiers . hotkeyChar
-		
-        
-;=======================check if mod is in debug mod if so show the accociated hotkey
-        local DebugLoggingEnabled := RegRead(DebugRegPath, "DebugLoggingEnabled")
-        local LoggingEnabled := RegRead(DebugRegPath, "LoggingEnabled")
-        
-        if DebugLoggingEnabled || LoggingEnabled == 1
-        {
-        Debug := true
-        msgbox "Detailed Debug Logs: " DebugLoggingEnabled " -- " "Mod Logs: " LoggingEnabled
-        }
-        else 
-        {
-        Debug := false
-        }
-        
-		if Debug == true
-        {
-        MsgBox modifiers . hotkeyChar
-        }
-;==============================================================end of debug        
-        return true ; Indicate success
-    } catch {
-        ; If there's an error reading from the registry, reset the combo and indicate failure.
-        HotkeyCombo := ""
-	MsgBox("Failure")
-        return false ; Indicate failure
+ExecuteToggle(keyString, srcName) {
+    global ToggleMinimize, StateFile
+    
+    ; If Feature OFF: Clean INI, Focus, Send, Exit
+    if (ToggleMinimize = 0) {
+        if FileExist(StateFile)
+            FileDelete(StateFile)
+        FocusDesktop()
+        Send keyString
+        Tooltip "Toggling via " srcName . "  " . keyString
+        return
     }
+
+    ; If Feature ON: Check State (0 = Normal/Needs Hide, 1 = Hidden/Needs Show)
+    IsHidden := IniRead(StateFile, "State", "Val", "0")
+
+    if (IsHidden = "0") { 
+        ; HIDE SEQUENCE
+        WinMinimizeAll()
+        Sleep 20
+        FocusDesktop()
+        Send keyString
+        Tooltip "Hiding via " . srcName . "  " . keyString
+        IniWrite("1", StateFile, "State", "Val")
+    } else {
+        ; SHOW SEQUENCE
+        FocusDesktop()
+        Send keyString
+        Sleep 20
+        WinMinimizeAllUndo()
+        Tooltip "Restoring via " srcName . "  " . keyString
+        IniWrite("0", StateFile, "State", "Val")
+    }
+}
+
+FocusDesktop() {
+    if WinExist("ahk_class Progman")
+        WinActivate
+    else if WinExist("ahk_class WorkerW")
+        WinActivate
+}
+
+GetModState() {
+    try return !RegRead(RegPath, "Disabled") ; Returns 1 if Enabled, 0 if Disabled
+    catch
+        return 0
+}
+
+GetWindhawkKey() {
+    try {
+        ctrl := RegRead(Settings_RegPath, "UseCtrl", 0)
+        alt  := RegRead(Settings_RegPath, "UseAlt", 0)
+        char := RegRead(Settings_RegPath, "HotkeyChar", "")
+        return (ctrl ? "^" : "") . (alt ? "!" : "") . char
+    }
+    return ""
 }
