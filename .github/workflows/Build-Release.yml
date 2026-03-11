@@ -25,7 +25,7 @@ jobs:
         shell: pwsh
         run: |
           # Get all tags and filter for semantic version tags only (v1.2.3 format)
-          $tags = git tag -l | Where-Object { $_ -match '^v\d+\.\d+\.\d+$' } | Sort-Object { [Version]($_ -replace '^v', '') } -Descending
+          $tags = @(git tag -l | Where-Object { $_ -match '^v\d+\.\d+\.\d+$' } | Sort-Object { [Version]($_ -replace '^v', '') } -Descending)
           
           if ($tags.Count -eq 0) {
             $newVersion = "v0.0.1"
@@ -54,7 +54,10 @@ jobs:
         if: steps.version.outputs.previous != ''
         shell: pwsh
         run: |
-          gh release delete ${{ steps.version.outputs.previous }} --yes
+          $exists = gh release view ${{ steps.version.outputs.previous }} 2>&1
+          if ($LASTEXITCODE -eq 0) {
+            gh release delete ${{ steps.version.outputs.previous }} --yes --cleanup-tag
+          }
         env:
           GH_TOKEN: ${{ github.token }}
 
